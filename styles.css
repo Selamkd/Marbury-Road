@@ -119,7 +119,7 @@ p{
     background-color: #e6e6fa;
     padding:0.7em;
     margin:0;
-    padding-bottom:6em;
+    padding-bottom:0.9em;
 }
 .wellness-image{
     width:90%;
@@ -157,4 +157,62 @@ p{
    100% {transform: scale(1.2);
   
  }
+ 
+}
+
+.grid-container-2{
+    display:grid;
+    grid-template-rows: 1fr 0.5fr; 
+    grid-template-areas: "produce produce" 
+                          "description description";
+    margin-top:2em;
+}
+
+.grid-container-2 img{
+    width:100%;
+    
+}
+.produce{
+   grid-area:produce;
+  
+
+}
+.grid-container-2 h2{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+
+  
+}
+.description{
+    grid-area:description;
+
+    padding:1em;
+    height: fit-content;
+}
+span{
+   color:	#478268; 
+}
+footer img{
+    width:10%;
+    margin-left:1em;
+    animation: scale1 2s ease-in-out;
+}
+footer{
+    background-color: #e6e6fa;
+    height:fit-content;
+    display:flex;
+    justify-content: space-between;
+}
+.socials{
+    align-self:center;
+    margin-right:1em;
+}
+.fa-brands{
+  color:#2a2d17;
+  font-size: 1.5em;
+  margin:0.5em;
+}
+.fa-brands:hover{
+    color:#478268;
 }
