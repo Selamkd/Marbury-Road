@@ -72,7 +72,7 @@ header{
     font-weight: 700;
 }
 p{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', "Bergen Sans","aurel",sans-serif;
     padding: 1em;
 }
 .button a{
@@ -178,7 +178,7 @@ p{
 
 }
 .grid-container-2 h2{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', "Bergen Sans","aurel",sans-serif;
     text-align: center;
     font-size: 1.5em;
 
